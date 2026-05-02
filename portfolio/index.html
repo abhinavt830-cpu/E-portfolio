@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhinav Tiwari | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">AT<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hey there, I'm</p>
+      <h1 class="hero-name">Abhinav <span class="accent">Tiwari</span></h1>
+      <p class="hero-role">Full Stack Developer <span class="divider">|</span> MERN Stack</p>
+      <p class="hero-sub">B.Tech CSE (FSD) · 5th Semester · Building things for the web</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/abhinav-tiwari-5819942a8" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:abhinavt830@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-tag">About Me</div>
+      <div class="about-grid">
+        <div class="about-avatar">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <span class="avatar-initials">AT</span>
+            </div>
+          </div>
+          <div class="avatar-badge">
+            <i class="fas fa-code"></i> Open to Opportunities
+          </div>
+        </div>
+        <div class="about-text">
+          <h2>Passionate about building <span class="accent">meaningful</span> web experiences</h2>
+          <p>
+            I'm Abhinav Tiwari, a B.Tech Computer Science student specializing in Full Stack Development,
+            currently in my 5th semester. I love turning ideas into real, functional products using modern
+            web technologies.
+          </p>
+          <p>
+            My focus is on the MERN stack — building everything from responsive UIs to robust backend APIs.
+            I enjoy solving real-world problems through code, whether it's a health management platform or
+            an ML-powered prediction system.
+          </p>
+          <p>
+            Beyond technical skills, I'm a natural leader — I thrive in team environments, communicate
+            clearly, and can guide a group from idea to execution with confidence.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">5th</span>
+              <span class="stat-label">Semester</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">MERN</span>
+              <span class="stat-label">Stack Focus</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num"><i class="fas fa-users"></i></span>
+              <span class="stat-label">Team Leader</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-tag">Education</div>
+      <h2 class="section-title">My academic journey</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-university"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2024 – 2028</span>
+              <h3>B.Tech — Computer Science & Engineering</h3>
+              <p class="timeline-place"><i class="fas fa-map-marker-alt"></i> Manav Rachna University</p>
+              <p class="timeline-desc">Specialization in Full Stack Development. Currently in 5th semester, building expertise in the MERN stack, software engineering, and machine learning.</p>
+              <div class="timeline-tags">
+                <span>Full Stack Development</span>
+                <span>MERN Stack</span>
+                <span>CSE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-school"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-year">Schooling</span>
+              <h3>Senior Secondary Education</h3>
+              <p class="timeline-place"><i class="fas fa-map-marker-alt"></i> Grand Columbus International School, Faridabad</p>
+              <p class="timeline-desc">Completed schooling with a strong foundation in science and mathematics, building the base for a career in technology.</p>
+              <div class="timeline-tags">
+                <span>Science</span>
+                <span>Mathematics</span>
+                <span>Faridabad</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-tag">Skills</div>
+      <h2 class="section-title">Technologies I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-paint-brush"></i> Frontend</h3>
+          <div class="skill-pills">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">React</span>
+            <span class="pill">Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Backend</h3>
+          <div class="skill-pills">
+            <span class="pill">Node.js</span>
+            <span class="pill">Express.js</span>
+            <span class="pill">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Database</h3>
+          <div class="skill-pills">
+            <span class="pill">MongoDB</span>
+            <span class="pill">Mongoose</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+          <div class="skill-pills">
+            <span class="pill">Git</span>
+            <span class="pill">GitHub</span>
+            <span class="pill">VS Code</span>
+            <span class="pill">Machine Learning</span>
+          </div>
+        </div>
+        <div class="skill-category leadership-card">
+          <h3><i class="fas fa-crown"></i> Leadership & Soft Skills</h3>
+          <div class="skill-pills">
+            <span class="pill">Team Leadership</span>
+            <span class="pill">Communication</span>
+            <span class="pill">Problem Solving</span>
+            <span class="pill">Decision Making</span>
+            <span class="pill">Collaboration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-tag">Projects</div>
+      <h2 class="section-title">Things I've built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <div class="project-content">
+            <h3>Medi Assist</h3>
+            <p class="project-type">Health Management Web Application</p>
+            <p class="project-desc">
+              A comprehensive health management platform that helps users track medical records,
+              appointments, and health data — all in one place. Built with the MERN stack for
+              a seamless full-stack experience.
+            </p>
+            <div class="project-tags">
+              <span>MongoDB</span>
+              <span>Express.js</span>
+              <span>React</span>
+              <span>Node.js</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="project-content">
+            <h3>Student Performance Prediction</h3>
+            <p class="project-type">Machine Learning Application</p>
+            <p class="project-desc">
+              An ML-powered system that predicts student academic performance based on various
+              input parameters. Leverages data analysis and machine learning algorithms to
+              provide actionable insights for educators and students.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Machine Learning</span>
+              <span>Data Analysis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-columns"></i>
+          </div>
+          <div class="project-content">
+            <h3>AI Kanban Academic Tracker</h3>
+            <p class="project-type">AI-Powered Productivity Tool</p>
+            <p class="project-desc">
+              A smart Kanban board tailored for students — uses AI to help organize tasks,
+              track academic deadlines, and prioritize work. Combines intuitive drag-and-drop
+              task management with intelligent suggestions to boost productivity.
+            </p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>AI</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card entrepreneurship">
+          <div class="project-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <div class="project-content">
+            <h3>Entrepreneurship Project</h3>
+            <p class="project-type">Startup / Business Venture</p>
+            <p class="project-desc">
+              Conceptualized and developed a business idea from the ground up as part of an
+              entrepreneurship initiative — covering market research, problem identification,
+              solution design, and pitching to stakeholders.
+            </p>
+            <div class="project-tags">
+              <span>Entrepreneurship</span>
+              <span>Business Strategy</span>
+              <span>Innovation</span>
+              <span>Leadership</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements section" id="achievements">
+    <div class="container">
+      <div class="section-tag">Beyond Code</div>
+      <h2 class="section-title">Sports & Achievements</h2>
+      <div class="achievements-grid">
+
+        <div class="achievement-card">
+          <div class="achievement-medal gold">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <span class="achievement-level">District Level</span>
+            <h3>Table Tennis</h3>
+            <p>Competed and achieved at the district level in Table Tennis, demonstrating sharp reflexes, focus, and competitive spirit.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-medal silver">
+            <i class="fas fa-feather-alt"></i>
+          </div>
+          <div class="achievement-content">
+            <span class="achievement-level">State Level</span>
+            <h3>Badminton</h3>
+            <p>Represented at the state level in Badminton — a testament to discipline, agility, and the drive to perform under pressure.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-medal bronze">
+            <i class="fas fa-futbol"></i>
+          </div>
+          <div class="achievement-content">
+            <span class="achievement-level">Inter-School</span>
+            <h3>Football — Runner Up</h3>
+            <p>Finished as Runner Up in the Inter-School Football Tournament, showcasing teamwork, coordination, and the spirit to compete at the highest school level.</p>
+          </div>
+        </div>
+
+      </div>
+      <p class="achievements-note"><i class="fas fa-quote-left"></i> Sports taught me teamwork, resilience, and how to lead — skills I bring to every project I build. <i class="fas fa-quote-right"></i></p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-tag">Contact</div>
+      <h2 class="section-title">Let's work together</h2>
+      <p class="contact-sub">I'm always open to new opportunities, collaborations, or just a good tech conversation.</p>
+      <div class="contact-cards">
+        <a href="mailto:abhinavt830@gmail.com" class="contact-card">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <p class="contact-label">Email</p>
+            <p class="contact-value">abhinavt830@gmail.com</p>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/abhinav-tiwari-5819942a8" target="_blank" class="contact-card">
+          <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div>
+            <p class="contact-label">LinkedIn</p>
+            <p class="contact-value">abhinav-tiwari-5819942a8</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed & Built by <span class="accent">Abhinav Tiwari</span> · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
